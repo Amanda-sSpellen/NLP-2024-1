@@ -14,7 +14,7 @@ Esse repo contém os entregáveis para o trabalho final para a disciplina de TEB
 	- `testes_fine_tuning.json`: a coleção de testes e resultados feitos com o modelo com fine-tuning e baseline
 	- `vectorstore_1000_chunks.db.zip` e `vectorstore_1200_chunks.db.zip`: pastas com os documentos e embeddings usados no RAG, com a versão menos (1000 chunks) e mais granular (1200 chunks) do banco de dados
 
-- `scripts`: os notebooks onde os artefatos foram gerados:
+- `codigos`: os notebooks onde os artefatos foram gerados:
 	- `TP03 - Geracao de instrucoes.ipynb`: com base nos dados pré-processados, gera mais de 1000 instruções sintéticas
 	- `TP03 - Fine-Tuning`: usa as instruções sintéticas para treinar um LLM para o tema de legislação acadêmica
 	- `TP03 - RAG`: com base nos dados pré-processados, cria um banco de dados vetorial e usa embeddings para incluir trechos interessantes de documentos como contexto para modelo
